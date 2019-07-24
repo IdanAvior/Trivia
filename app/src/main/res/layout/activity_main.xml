@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.trivia.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select subject:"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Spinner
+        android:id="@+id/subject_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#727272"
+        android:layout_weight="0.2"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select quiz type:"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#727272"
+        android:layout_weight="0.2">
+    </Spinner>
+
+    <Button
+        android:id="@+id/proceed_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="20dp"
+        android:layout_weight="0.5"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+
+
+
+
+</LinearLayout>
